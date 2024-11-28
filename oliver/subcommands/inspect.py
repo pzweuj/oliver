@@ -103,7 +103,7 @@ async def call(args: Dict[str, Any], cromwell: api.CromwellAPI) -> None:
     calls = sorted(calls, key=lambda k: k["Start"])  # type: ignore
 
     for cur_call in calls:
-        cur_call["Start"] = reporting.localize_date(call_start_date)
+        cur_call["Start"] = reporting.localize_date(cur_call["Start"])
 
     if oliver_job_name:
         print(f"Job Name: {oliver_job_name}")
