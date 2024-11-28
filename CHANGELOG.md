@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.4.11.1 (2024-11-28)
+### Fix
+* Fixes calls' start date
+
 ## v1.4.11 (2022-09-05)
 ### Fix
 * Fixes grid style for batches subcommand ([`433cda6`](https://github.com/stjudecloud/oliver/commit/433cda622d66f22557b45e2322f65f460766d12c))
